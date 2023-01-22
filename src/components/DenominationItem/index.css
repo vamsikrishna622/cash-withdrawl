@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+
+.denomination {
+  background-color: #585076;
+  color: #d4d2db;
+  border: solid 2px #d4d2db;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+  width: 200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  outline: none;
+}

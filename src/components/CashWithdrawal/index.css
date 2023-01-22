@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.denominations-container {
+  background-color: #150b3e;
+  border-radius: 24px;
+  font-family: 'Roboto';
+  padding: 32px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-initial {
+  background-color: #c7d2fe;
+  height: 88px;
+  width: 88px;
+  border-top-left-radius: 44px;
+  border-top-right-radius: 44px;
+  border-bottom-left-radius: 44px;
+  border-bottom-right-radius: 44px;
+  color: #7c3aed;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 24px;
+  text-align: center;
+  padding-top: 36px;
+}
+.profile-name {
+  color: #d4d2db;
+  font-size: 22px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.balance {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 500;
+}
+.balance-amount {
+  color: #d4d2db;
+  font-size: 32px;
+  font-weight: 600;
+}
+.rupees {
+  color: #585076;
+  font-size: 14px;
+  font-weight: 500;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-amount-container {
+  align-self: center;
+}
+.withdraw {
+  color: #d4d2db;
+  font-size: 26px;
+}
+.sum-in-rupees {
+  color: #585076;
+  font-size: 16px;
+  font-weight: 500;
+}
+.denomination-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
